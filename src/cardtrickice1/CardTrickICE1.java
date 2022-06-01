@@ -42,7 +42,7 @@ public class CardTrickICE1 {
        
        Card luckyCard = new Card(); //hard coded
        luckyCard.setValue(7);
-       luckycard.setSuits("clubs");
+       luckyCard.setSuits("clubs");
         
         
         
