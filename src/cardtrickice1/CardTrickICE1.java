@@ -37,7 +37,7 @@ public class CardTrickICE1 {
         System.out.print("Enter any number from 1 to 13 :");
         int num = input.nextInt();
         Scanner obj = new Scanner(System.in);
-        System.out.print("Enter any number from 1 to 13 :");
+        System.out.print("choose suit :");
         String suit = obj.nextLine();
        
        Card luckyCard = new Card(); //hard coded
