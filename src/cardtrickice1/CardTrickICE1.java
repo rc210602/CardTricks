@@ -50,7 +50,20 @@ public class CardTrickICE1 {
          
         
         //step 3: match with array 
+        boolean key= false;
+        for (Card magicHand1 : magicHand) {
+            if (suit.equalsIgnoreCase(magicHand1.getSuits()) && num == magicHand1.getValue()) {
+                System.out.println("Card is found");
+                key=true;
+            }
+        }
+            if(!key) {
+            System.out.println("Card not found");
+        }
     }
-}
+
+    }
+        
+
     
 
