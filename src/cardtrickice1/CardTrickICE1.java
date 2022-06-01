@@ -39,6 +39,10 @@ public class CardTrickICE1 {
         Scanner obj = new Scanner(System.in);
         System.out.print("Enter any number from 1 to 13 :");
         String suit = obj.nextLine();
+       
+       Card luckyCard = new Card(); //hard coded
+       luckyCard.setValue(7);
+       luckycard.setSuits("clubs");
         
         
         
